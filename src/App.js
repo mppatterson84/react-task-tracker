@@ -42,7 +42,7 @@ function App() {
     <div className="container">
       <Header />
       {tasks.length > 0 ? (
-        <Tasks tasks={tasks} onDelete={deleteTask} onTogglg={toggleReminder} />
+        <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
         'No Tasks To Show'
       )}
